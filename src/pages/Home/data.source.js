@@ -12,8 +12,14 @@ export const Nav20DataSource = {
     children: [
       {
         name: 'linkNav',
-        to: '当前页面 ID 地址，参考如上',
-        children: '导航名称',
+        to: '/',
+        children: '首页',
+        className: 'menu-item',
+      },
+      {
+        name: 'linkNav',
+        to: '#/abc',
+        children: '介绍',
         className: 'menu-item',
       },
     ],

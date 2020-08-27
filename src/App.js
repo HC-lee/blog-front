@@ -2,13 +2,11 @@ import React, { Component } from 'react';
 import { HashRouter as Router, Route } from "react-router-dom";
 import { enquireScreen } from 'enquire-js';
 import Header from './pages/Home/Nav2';
-import Footer from './pages/Home/Footer1';
 import Home from './pages/Home';
 import Page from './pages/Introduce';
 
 import {
   Nav20DataSource,
-  Footer10DataSource,
 } from './pages/Home/data.source.js';
 
 let isMobile;
@@ -36,7 +34,6 @@ class App extends Component {
           <Header dataSource={Nav20DataSource} isMobile={this.state.isMobile} />
           <Route exact path="/" component={Home} />
           <Route path="/abc" component={Page} />
-          <Footer dataSource={Footer10DataSource} isMobile={this.state.isMobile} />
         </div>
       </Router>
     );

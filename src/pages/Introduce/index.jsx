@@ -5,11 +5,15 @@ import { enquireScreen } from 'enquire-js';
 
 import Content0 from './Content0';
 import Content7 from './Content7';
-
+import Footer from '../../layouts/footer/Footer';
 import {
   Content00DataSource,
   Content70DataSource,
 } from './data.source.js';
+
+import {
+  Footer10DataSource,
+} from '../Home/data.source.js';
 
 import './less/antMotionStyle.less';
 
@@ -61,6 +65,12 @@ export default class Home extends React.Component {
         dataSource={Content70DataSource}
         isMobile={this.state.isMobile}
       />,
+      <Footer
+        id="Footer_0"
+        key="Footer_0"
+        dataSource={Footer10DataSource}
+        isMobile={this.state.isMobile}
+      />
     ];
     return (
       <div

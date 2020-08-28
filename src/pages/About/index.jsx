@@ -3,17 +3,16 @@
 import React from 'react';
 import { enquireScreen } from 'enquire-js';
 
+// import Content0 from '../Home/Content0';
 import Content0 from './Content0';
 import Content7 from './Content7';
-import Footer from '../../layouts/footer/Footer';
-import {
-  Content00DataSource,
-  Content70DataSource,
-} from './data.source.js';
+import Footer from '../../components/footer/Footer';
 
 import {
+  Content01DataSource,
+  Content70DataSource,
   Footer10DataSource,
-} from '../Home/data.source.js';
+} from '../../data/data.source.js';
 
 import './less/antMotionStyle.less';
 
@@ -24,7 +23,7 @@ enquireScreen((b) => {
 
 const location = window.location;
 
-export default class Home extends React.Component {
+export default class About extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -56,7 +55,7 @@ export default class Home extends React.Component {
       <Content0
         id="Content0_0"
         key="Content0_0"
-        dataSource={Content00DataSource}
+        dataSource={Content01DataSource}
         isMobile={this.state.isMobile}
       />,
       <Content7

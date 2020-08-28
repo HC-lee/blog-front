@@ -8,7 +8,7 @@ import Feature5 from './Feature5';
 import Content0 from './Content0';
 import Content1 from './Content1';
 import Content3 from './Content3';
-import Footer from '../../layouts/footer/Footer';
+import Footer from '../../components/footer/Footer';
 import {
   Banner10DataSource,
   Feature50DataSource,
@@ -16,7 +16,7 @@ import {
   Content10DataSource,
   Content30DataSource,
   Footer10DataSource
-} from './data.source';
+} from '../../data/data.source';
 import './less/antMotionStyle.less';
 
 let isMobile;

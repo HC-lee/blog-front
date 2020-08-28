@@ -3,7 +3,7 @@ import TweenOne from 'rc-tween-one';
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
 import { Tabs, Row, Col } from 'antd';
 import { Icon } from '@ant-design/compatible';
-import { getChildrenToRender } from './utils';
+import { getChildrenToRender } from '../../utils/utils';
 
 const TabPane = Tabs.TabPane;
 

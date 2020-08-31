@@ -17,6 +17,10 @@ class Header extends React.Component {
     });
   };
 
+
+  logoClick = () => {
+  };
+
   render() {
     const { dataSource, isMobile, ...props } = this.props;
 
@@ -39,6 +43,7 @@ class Header extends React.Component {
       );
     });
     const moment = phoneOpen === undefined ? 300 : null;
+    console.log(dataSource);
     return (
       <TweenOne
         component="header"
@@ -55,7 +60,11 @@ class Header extends React.Component {
             {...dataSource.logo}
           >
             {/* <img width="100%" src={dataSource.logo.children} alt="img" /> */}
-            <img width="100%" src={require('../../assets/images/ic_logo.png')} alt="img" />
+            <img width="100%" src={require('../../assets/images/ic_logo.png')} alt="img" 
+              onClick={() => {
+                this.logoClick();
+              }}
+            />
           </TweenOne>
           {isMobile && (
             <div

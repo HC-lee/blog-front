@@ -59,7 +59,7 @@ export const Banner10DataSource = {
         },
         content: {
           className: 'banner1-content',
-          children: '一个高效的页面动画解决方案',
+          children: '开发小插件',
         },
         button: { className: 'banner1-button', children: 'Learn More' },
       },
@@ -75,7 +75,7 @@ export const Banner10DataSource = {
         },
         content: {
           className: 'banner1-content',
-          children: '一个高效的页面动画解决方案',
+          children: '开发小插件',
         },
         button: { className: 'banner1-button', children: 'Learn More' },
       },
@@ -91,7 +91,7 @@ export const Banner10DataSource = {
         },
         content: {
           className: 'banner1-content',
-          children: '一个高效的页面动画解决方案',
+          children: '开发小插件',
         },
         button: { className: 'banner1-button', children: 'Learn More' },
       },
@@ -107,10 +107,10 @@ export const Feature50DataSource = {
     children: [
       {
         name: 'title',
-        children: '蚂蚁金融云提供专业的服务',
+        children: '金融云提供专业的服务',
         className: 'title-h1',
       },
-      { name: 'content', children: '基于阿里云计算强大的基础资源' },
+      { name: 'content', children: '基于计算强大的基础资源' },
     ],
   },
   tabsWrapper: { className: 'content7-tabs-wrapper' },
@@ -352,13 +352,13 @@ export const Content30DataSource = {
     children: [
       {
         name: 'title',
-        children: '蚂蚁金融云提供专业的服务',
+        children: '金融云提供专业的服务',
         className: 'title-h1',
       },
       {
         name: 'content',
         className: 'title-content',
-        children: '基于阿里云强大的基础资源',
+        children: '基于强大的基础资源',
       },
     ],
   },
@@ -498,10 +498,10 @@ export const Content70DataSource = {
     children: [
       {
         name: 'title',
-        children: '蚂蚁金融云提供专业的服务',
+        children: '金融云提供专业的服务',
         className: 'title-h1',
       },
-      { name: 'content', children: '基于阿里云计算强大的基础资源' },
+      { name: 'content', children: '基于计算强大的基础资源' },
     ],
   },
   tabsWrapper: { className: 'content7-tabs-wrapper' },

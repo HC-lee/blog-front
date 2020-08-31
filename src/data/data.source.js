@@ -5,7 +5,8 @@ export const Nav20DataSource = {
   page: { className: 'home-page' },
   logo: {
     className: 'header2-logo',
-    children: 'https://os.alipayobjects.com/rmsportal/mlcYmsRilwraoAe.svg',
+    // children: 'https://os.alipayobjects.com/rmsportal/mlcYmsRilwraoAe.svg',
+    children: '../../assets/images/ic_logo.png',
   },
   LinkMenu: {
     className: 'header2-menu',

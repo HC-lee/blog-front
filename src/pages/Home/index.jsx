@@ -55,12 +55,12 @@ export default class Home extends React.Component {
 
   render() {
     const children = [
-      <Banner1
-        id="Banner1_0"
-        key="Banner1_0"
-        dataSource={Banner10DataSource}
-        isMobile={this.state.isMobile}
-      />,
+      // <Banner1
+      //   id="Banner1_0"
+      //   key="Banner1_0"
+      //   dataSource={Banner10DataSource}
+      //   isMobile={this.state.isMobile}
+      // />,
       <Feature5
         id="Feature5_0"
         key="Feature5_0"

@@ -60,11 +60,13 @@ class Header extends React.Component {
             {...dataSource.logo}
           >
             {/* <img width="100%" src={dataSource.logo.children} alt="img" /> */}
-            <img width="100%" src={require('../../assets/images/ic_logo.png')} alt="img" 
-              onClick={() => {
-                this.logoClick();
-              }}
-            />
+            <Link to="/">
+              <img width="100%" src={require('../../assets/images/ic_logo.png')} alt="img"
+                onClick={() => {
+                  this.logoClick();
+                }}
+              />
+            </Link>
           </TweenOne>
           {isMobile && (
             <div
@@ -83,15 +85,15 @@ class Header extends React.Component {
             animation={
               isMobile
                 ? {
-                    height: 0,
-                    duration: 300,
-                    onComplete: (e) => {
-                      if (this.state.phoneOpen) {
-                        e.target.style.height = 'auto';
-                      }
-                    },
-                    ease: 'easeInOutQuad',
-                  }
+                  height: 0,
+                  duration: 300,
+                  onComplete: (e) => {
+                    if (this.state.phoneOpen) {
+                      e.target.style.height = 'auto';
+                    }
+                  },
+                  ease: 'easeInOutQuad',
+                }
                 : null
             }
             moment={moment}

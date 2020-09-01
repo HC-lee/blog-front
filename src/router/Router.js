@@ -6,6 +6,7 @@ import Home from '../pages/Home';
 import Blog from '../pages/Blog';
 import Kit from '../pages/Kit';
 import About from '../pages/About';
+import NoMatch from '../pages/NoMatch';
 
 import {
     Nav20DataSource,

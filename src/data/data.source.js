@@ -691,7 +691,7 @@ export const Footer10DataSource = {
     className: 'copyright',
     children: (
       <span>
-        ©2018 by <a href="https://motion.ant.design">Ant Motion</a> All Rights
+        2020 by <a href="https://motion.ant.design">Supcoder</a> All Rights
         Reserved
       </span>
     ),

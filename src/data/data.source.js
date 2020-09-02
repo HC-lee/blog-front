@@ -1,25 +1,4 @@
 import React from 'react';
-export const Nav20DataSource = {
-  isScrollLink: true,
-  wrapper: { className: 'header0 home-page-wrapper' },
-  page: { className: 'home-page' },
-  logo: {
-    className: 'header0-logo',
-    // children: 'https://os.alipayobjects.com/rmsportal/mlcYmsRilwraoAe.svg',
-    children: '../../assets/images/ic_logo.png',
-  },
-  Menu: {
-    className: 'header0-menu',
-    children: [
-      { name: 'item0', a: { children: '首页', href: '/' } },
-      { name: 'item1', a: { children: '博客', href: '/blog' } },
-      { name: 'item2', a: { children: '工具', href: '/kit' } },
-      { name: 'item3', a: { children: '关于', href: '/about' } },
-    ],
-  },
-  mobileMenu: { className: 'header0-mobile-menu' },
-};
-
 
 export const Nav30DataSource = {
   wrapper: { className: 'header3 home-page-wrapper' },
@@ -747,7 +726,7 @@ export const Footer10DataSource = {
       },
       {
         name: 'copyright',
-        children: 'Copyright © 蚂蚁金融服务集团',
+        children: 'Copyright © 超级编码器',
         className: 'copyright-text',
       },
     ],

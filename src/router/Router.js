@@ -2,14 +2,12 @@ import React, { Component } from 'react';
 import { HashRouter as Router, Route } from "react-router-dom";
 import { enquireScreen } from 'enquire-js';
 import Header from '../components/header/Header';
-// import Header3 from '../components/header/Header3';
 import Home from '../pages/Home';
 import Blog from '../pages/Blog';
 import Kit from '../pages/Kit';
 import About from '../pages/About';
 
 import {
-    Nav20DataSource,
     Nav30DataSource
 } from '../data/data.source.js';
 
@@ -35,7 +33,7 @@ class App extends Component {
         return (
             <Router>
                 <div>
-                    <Header dataSource={Nav20DataSource} isMobile={this.state.isMobile} />
+                    <Header dataSource={Nav30DataSource} isMobile={this.state.isMobile} />
                     <Route exact path="/" component={Home} />
                     <Route path="/blog" component={Blog} />
                     <Route path="/kit" component={Kit} />

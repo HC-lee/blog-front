@@ -96,7 +96,7 @@ export const Nav30DataSource = {
         name: 'item0',
         className: 'header3-item',
         children: {
-          href: '/',
+          href: '#/',
           children: [{ children: '首页', name: 'text' }],
         },
       },
@@ -104,7 +104,7 @@ export const Nav30DataSource = {
         name: 'item1',
         className: 'header3-item',
         children: {
-          href: '/blog',
+          href: '#/blog',
           children: [{ children: '博客', name: 'text' }],
         },
       },
@@ -112,7 +112,7 @@ export const Nav30DataSource = {
         name: 'item2',
         className: 'header3-item',
         children: {
-          href: '/kit',
+          href: '#/kit',
           children: [{ children: '工具', name: 'text' }],
         },
       },
@@ -120,7 +120,7 @@ export const Nav30DataSource = {
         name: 'item3',
         className: 'header3-item',
         children: {
-          href: '/about',
+          href: '#/about',
           children: [{ children: '关于', name: 'text' }],
         },
       },

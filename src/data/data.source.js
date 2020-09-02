@@ -1,43 +1,23 @@
 import React from 'react';
 export const Nav20DataSource = {
   isScrollLink: true,
-  wrapper: { className: 'header2 home-page-wrapper' },
+  wrapper: { className: 'header0 home-page-wrapper' },
   page: { className: 'home-page' },
   logo: {
-    className: 'header2-logo',
+    className: 'header0-logo',
     // children: 'https://os.alipayobjects.com/rmsportal/mlcYmsRilwraoAe.svg',
     children: '../../assets/images/ic_logo.png',
   },
-  LinkMenu: {
-    className: 'header2-menu',
+  Menu: {
+    className: 'header0-menu',
     children: [
-      {
-        name: 'linkNav',
-        to: '/',
-        children: '首页',
-        className: 'menu-item',
-      },
-      {
-        name: 'linkNav',
-        to: '#/blog',
-        children: '博客',
-        className: 'menu-item',
-      },
-      {
-        name: 'linkNav',
-        to: '#/kit',
-        children: '工具',
-        className: 'menu-item',
-      },
-      {
-        name: 'linkNav',
-        to: '#/about',
-        children: '关于',
-        className: 'menu-item',
-      },
+      { name: 'item0', a: { children: '首页', href: '/' } },
+      { name: 'item1', a: { children: '博客', href: '/blog' } },
+      { name: 'item2', a: { children: '工具', href: '/kit' } },
+      { name: 'item3', a: { children: '关于', href: '/about' } },
     ],
   },
-  mobileMenu: { className: 'header2-mobile-menu' },
+  mobileMenu: { className: 'header0-mobile-menu' },
 };
 
 

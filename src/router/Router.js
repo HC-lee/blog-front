@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { HashRouter as Router, Route } from "react-router-dom";
 import { enquireScreen } from 'enquire-js';
-import Header from '../components/header/Nav2';
+import Header from '../components/header/Header';
 import Home from '../pages/Home';
 import Blog from '../pages/Blog';
 import Kit from '../pages/Kit';
